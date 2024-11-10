@@ -1,0 +1,13 @@
+train: /Users/samirkc/Documents/Projects/ADODRS/dataset/traffic/train/images
+val: /Users/samirkc/Documents/Projects/ADODRS/dataset/traffic/valid/images
+test: /Users/samirkc/Documents/Projects/ADODRS/dataset/traffic/test/images
+
+nc: 9
+names: ['Speed Limit -60-', 'Speed Limit -70-', 'Speed Limit -80-', 'Speed Limit -90-', 'Speed Limit 30', 'Speed limit -40-', 'green light', 'red light', 'yellow light']
+
+roboflow:
+  workspace: isiso-jcjgn
+  project: cars-gnrlm
+  version: 13
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/isiso-jcjgn/cars-gnrlm/dataset/13
