@@ -1,7 +1,0 @@
-name: adodrs_env # Name of your environment
-channels:
-  - conda-forge  # Channel to fetch the packages from (use conda-forge for a lot of scientific packages)
-  - defaults  # Default channel
-dependencies:
-  - python=3.8  # Specify the Python version
-  - pip
