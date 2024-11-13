@@ -1,0 +1,13 @@
+#ignore dataset, model, videosource, temp caching
+dataset/
+.ipynb_checkpoints/
+.DS_Store
+# results/
+dataset_yolo/
+datasets/
+weights/
+YOLOv8/
+
+yolov8n.pt
+
+output_detected.mp4
